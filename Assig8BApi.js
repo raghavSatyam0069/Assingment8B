@@ -33,7 +33,6 @@ app.listen(port, () => console.log(`Listening on port ${port}!`));
 let {data}=require("./assignment8B.js");
 let {products,purchases,shops}=data;
 let fs=require("fs");
-const { productData } = require("./productData.js");
 let fname="ShopsData.json";
 
 app.get("/resetData",function(req,res){
